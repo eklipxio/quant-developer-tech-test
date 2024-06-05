@@ -25,3 +25,4 @@ Using the volatility curve from the clean.csv please price the following options
 For each of the 3 options you have priced above please simulate the delta, gamma, vega and theta across the curve with particular attention around the barrier. 
 
 *Once completed please submit a pull request and we will aim to review and reach out within 3 days of the submission.* 
+
