@@ -12,14 +12,23 @@ The test comprises of three sections and delivery is via a **pull request** agai
 ### Volatility 
 The repository contains two volatility surfaces named clean.csv and noisy.csv 
 1) Create a volatility surface from the clean.csv file suitable for use with the pricing exercises below.
-2) Parse the noisy.csv file and based on your knowledge clean and interpolate the curve so it is suitable for pricing (propose an interpolation method).
+2) Parse the noisy.csv file and based on your knowledge clean and interpolate the curve so it is suitable for pricing (propose and implement an interpolation method).
 3) Plot the interpolated curve and comment on any pertinent transformations where you see fit.
 
 ### Options
-Using the volatility curve from the clean.csv please price the following options:
+Using the volatility curve from the clean.csv and the provided usd yield curve rates (usd_yield.csv) please price the following options.
+
 1) Barrier Down & Out
 2) Binary Up & In
 3) Flexstrip European (also called daily option)
+
+as per the reference data below:
+
+|option type|direction|spot|strike|ko|ki|payoff|
+| -- | -- | -- | -- | -- | -- | -- |
+|Barrier Down & Out|put|1174.75|1200|1100|-|-|
+|Binary Up & In|call|1174.75|1200|-|1350|20|
+|Flexstrip European|call|1174.75|1200|-|-|-|
 
 ### Simulation
 For each of the 3 options you have priced above please simulate the delta, gamma, vega and theta across the curve with particular attention around the barrier. 
