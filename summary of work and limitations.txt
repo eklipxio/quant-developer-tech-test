@@ -1,0 +1,12 @@
+Volatility
+1/ I have transformed the clean.csv file and then build a function - prepare_volatility_matrix- to generate a volatility matrix readable by ql. function is saved in barrierOption.py and BinaryOption.py
+2/work performed in skewInterpolation.py. I propose two interpolations, linear and cubic spline. The latter provides a smoother management of the discontinuity.
+3/plot provided in 2/
+
+Options and Simulation
+The two sections are treated as a whole.
+I have not been able to cover the flexstrip european option. I was out of time this morning and I think I should have asked yesterday more details about this product.
+I have created a file for each derivative (barrier and  binary options)
+In the barrier file I also provide pricing for a vanilla option (used to "validate" the code). I think the theta sensitivity of the barrier is wrong.
+I have not worked on considerations around the barrier nor even optimised my code (not enough time). Also I am not sure of the accuracy of the binary option pricing.
+Regarding the yield curve, I have tried to develop some code to  import and transform properly the curve with deposits and swaps sections but I was also running out of time. So I only used a scalar point.
