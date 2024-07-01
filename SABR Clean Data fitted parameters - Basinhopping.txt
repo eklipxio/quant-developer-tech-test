@@ -1,0 +1,54 @@
+Method = Nelder-Mead
+F(solution) = 0.10584973431350013
+Fitted parameters:
+alpha = 1.6581957304518182
+beta = 0.6647995598582886
+rho = 0.04407636597062564
+nu = 2.399614316049137
+
+Method = Powell
+Optimization did not converge
+
+Method = CG
+F(solution) = 0.10584973432528354
+Fitted parameters:
+alpha = 1.6578888927820843
+beta = 0.6648257045563495
+rho = 0.04407100037141399
+nu = 2.3996135253750213
+
+Method = BFGS
+F(solution) = 0.10584973431543114
+Fitted parameters:
+alpha = 1.6582926267000218
+beta = 0.6647912225344673
+rho = 0.044078645311671064
+nu = 2.399615070301802
+
+Method = L-BFGS-B
+F(solution) = 0.10584973431833007
+Fitted parameters:
+alpha = 1.657985772484629
+beta = 0.6648174212926323
+rho = 0.04407224936755945
+nu = 2.399614116290703
+
+Method = COBYLA
+Optimization did not converge
+
+Method = SLSQP
+F(solution) = 0.10584977439436848
+Fitted parameters:
+alpha = 1.6579821054554968
+beta = 0.6647891103162008
+rho = 0.04399715552777208
+nu = 2.3999824888124186
+
+Method = trust-constr
+F(solution) = 0.10584973431324651
+Fitted parameters:
+alpha = 1.6581770321339386
+beta = 0.6648010792227993
+rho = 0.04407619113156088
+nu = 2.3996148775081516
+
