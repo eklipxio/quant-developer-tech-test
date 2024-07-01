@@ -1,0 +1,36 @@
+Method = Nelder-Mead
+F(solution) = 0.10584973431321446
+Fitted parameters:
+alpha = 1.6581710921908974
+beta = 0.664801610500718
+rho = 0.04407613995194806
+nu = 2.3996145901622583
+
+Method = Powell
+Optimization did not converge
+
+Method = CG
+Optimization did not converge
+
+Method = BFGS
+Optimization did not converge
+
+Method = L-BFGS-B
+F(solution) = 0.10584973431826862
+Fitted parameters:
+alpha = 1.6579857737611006
+beta = 0.6648174270479382
+rho = 0.04407245929362221
+nu = 2.3996140303679856
+
+Method = COBYLA
+Optimization did not converge
+
+Method = SLSQP
+F(solution) = 0.10584973431903773
+Fitted parameters:
+alpha = 1.657985365423706
+beta = 0.6648173637785726
+rho = 0.04407209575979905
+nu = 2.399615446485959
+
